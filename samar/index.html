@@ -34,6 +34,10 @@
         />
     </head>
     <body>
+        <!-- scroll to top -->
+        <div class="scroll-to-top">
+            <i class="fa fa-arrow-up"></i>
+        </div>
         <!-- <header></header> -->
         <section id="header">
             <div class="header__main">
@@ -62,12 +66,12 @@
                     </nav>
                 </div>
 
-                <div class="carousel">
-                    <div class="carousel__content">
+                <div class="container">
+                    <div class="container__content">
                         <p>We are The Best</p>
                         <h1>Freelance Product Designer Running</h1>
                         <p>We develop the relationships that underpin the next phase in your organisation’s growth.</p>
-                        <div class="content__icons">
+                        <div class="container__icons">
                             <div class="icon-1">
                                 <i class="fa fa-check"></i>
                                 <p>Master's degree in designing</p>
@@ -79,9 +83,9 @@
                         </div>
                         <button>GET STARTED</button>
                     </div>
-                    <div class="carousel__img">
+                    <div class="container__img">
                         <img src="./iamge/pic3_1.png" alt="" />
-                        <div class="carousel__img-2">
+                        <div class="container__img-2">
                             <img src="./iamge/pic1.png" alt="" />
                         </div>
                     </div>
@@ -215,7 +219,7 @@
 
         <section class="features">
             <div class="features__main">
-                <div class="container">
+                <div class="features__container">
                     <div class="content">
                         <p>Our Features</p>
                         <h1>Behind The Story Of Samar Agency</h1>
@@ -415,9 +419,6 @@
                 <div class="feedbacks__image">
                     <div class="image1">
                         <img class="img" src="./iamge/pic1_4.jpg" alt="#">
-                        <div class="image-cover">
-                            <img src="./iamge/pattern12.png" alt="#">
-                        </div>
                     </div>
                     <div class="image2">
                         <img class="img" src="./iamge/pic2_3.jpg" alt="#">
@@ -431,11 +432,65 @@
                     
                 </div>
 
-                <div class="feedbacks__content">
-                    <p>Cak Dikin</p>
-                    <p>CEO & Founder</p>
-                    <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                <!-- <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    
+                   
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <h1>Cak Dikin</h1>
+                        <p>CEO & Founder</p>
+                        <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                      </div>
+                      <div class="carousel-item">
+                        <h1>Cak Dikin</h1>
+                        <p>CEO & Founder</p>
+                        <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                      </div>
+                      <div class="carousel-item">
+                        <h1>Cak Dikin</h1>
+                        <p>CEO & Founder</p>
+                        <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <h1>Cak Dikin</h1>
+                        <p>CEO & Founder</p>
+                        <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                      </div>
+                    
+                    <div class="mySlides fade">
+                          <h1>Cak Dikin</h1>
+                          <p>CEO & Founder</p>
+                          <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                        </div>
+                    
+                      <div class="mySlides fade">
+                          <h1>Cak Dikin</h1>
+                          <p>CEO & Founder</p>
+                          <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                        </div>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
                 </div>
+
             </div>
         </section>
 
@@ -462,7 +517,7 @@
                                 <li>28 JUNE 2021</li>
                                 <li>
                                     <i class="fa fa-user-circle"></i>
-                                    "By"
+                                    By
                                     <a href="#">JOHNE DOE</a>
                                 </li>
                                 <li>
@@ -490,7 +545,7 @@
                                 <li>28 JUNE 2021</li>
                                 <li>
                                     <i class="fa fa-user-circle"></i>
-                                    "By"
+                                    By
                                     <a href="#">JOHNE DOE</a>
                                 </li>
                                 <li>
@@ -518,7 +573,7 @@
                                 <li>28 JUNE 2021</li>
                                 <li>
                                     <i class="fa fa-user-circle"></i>
-                                    "By"
+                                    By
                                     <a href="#">JOHNE DOE</a>
                                 </li>
                                 <li>
@@ -558,9 +613,117 @@
                     <i class="fa fa-paper-plane"></i>
                 </div>
             </div>
+            <div class="footer-contain">
+                <img src="./iamge/bg4.png" alt="">
+                <div class="row footer-contain__info mt-40">
+                    <div class="">
+                        <img src="/iamge/logo-white.png" alt="">
+                        <div class="row mt-20">
+                            <div class="info-icon gradient">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div>
+                                <p>1800-123-4567</p>
+                                <p>+91 987-654-3210</p>
+                            </div>
+                        </div>
+                        <div class="row mt-20">
+                            <div class="info-icon gradient">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p>info@example.com</p>
+                                <p>services@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="row mt-20">
+                            <div class="info-icon gradient">
+                                <i class="fa fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p>Demo Address #8901 Marmora</p>
+                                <p>Road Chi Minh City, Vietnam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ml-40 width-280">
+                        <p class="footer-title">
+                            Our links
+                        </p>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Home</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">About Us</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Services</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Team</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Blog</p>
+                        </div>
+                    </div>
+                    <div class="ml-40 width-280">
+                        <p class="footer-title">
+                            Our Services
+                        </p>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Strategy & Research</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Web Development</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Web Solution</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Digital Marketing</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">App Design</p>
+                        </div>
+                    </div>
+                    <div class="ml-40 width-280">
+                        <p class="footer-title">
+                            Our links
+                        </p>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">FAQ</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Portfolio</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Privacy Policy</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Terms & Conditions</p>
+                        </div>
+                        <div class="row item-center mt-20">
+                            <i class="fa fa-angle-right"></i>
+                            <p class="pl-10">Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
-
-
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -575,7 +738,7 @@
             $(".counter__points").countUp();
         </script>
         
-<script>
+    <script>
     // Add active class to the current button (highlight it)
     var header = document.getElementById("button__head");
     var btns = header.getElementsByClassName("button");
@@ -588,5 +751,39 @@
     }
     </script>
     
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    const scroll_top = document.querySelector(".scroll-to-top");
+    scroll_top.addEventListener("click",()=>{
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    })
+    </script>
+
     </body>
 </html>
